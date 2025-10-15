@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1760467217 source:c:\users\nicol\onedrive\documents\programacion iv\piv\obligatorio_soii\main.cpp
+	<iostream>
+
+1760468018 source:c:\users\nicol\onedrive\documents\programacion iv\piv\obligatorio_soii\string.cpp
+	"string.h"
+
+1760468018 c:\users\nicol\onedrive\documents\programacion iv\piv\obligatorio_soii\string.h
+	<cstring>
+	<stdio.h>
+
+1760468473 source:c:\users\nicol\onedrive\documents\programacion iv\piv\obligatorio_soii\producto.cpp
+	"producto.h"
+
+1760468047 c:\users\nicol\onedrive\documents\programacion iv\piv\obligatorio_soii\producto.h
+	<stdio.h>
+	"string.h"
+
+1760468473 source:c:\users\nicol\onedrive\documents\obligatorio_soii\producto.cpp
+	"producto.h"
+
+1760468047 c:\users\nicol\onedrive\documents\obligatorio_soii\producto.h
+	<stdio.h>
+	"string.h"
+
+1760484005 c:\users\nicol\onedrive\documents\obligatorio_soii\string.h
+	<cstring>
+	<cstdio>
+
+1760484005 source:c:\users\nicol\onedrive\documents\obligatorio_soii\string.cpp
+	"String.h"
+
+1760534350 source:c:\users\nicol\onedrive\documents\obligatorio_soii\buffer_circular.cpp
+	"buffer_circular.h"
+
+1760497096 c:\users\nicol\onedrive\documents\obligatorio_soii\buffer_circular.h
+	"producto.h"
+	<stdio.h>
+	<mutex>
+	<condition_variable>
+
+1760535189 source:c:\users\nicol\onedrive\documents\obligatorio_soii\main.cpp
+	<iostream>
+	<thread>
+	"funciones.h"
+	"buffer_circular.h"
+
+1760534418 c:\users\nicol\onedrive\documents\obligatorio_soii\funciones.h
+	<stdio.h>
+	"buffer_circular.h"
+
+1760534718 source:c:\users\nicol\onedrive\documents\obligatorio_soii\funciones.cpp
+	"funciones.h"
+
