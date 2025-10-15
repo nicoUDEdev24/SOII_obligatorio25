@@ -2,8 +2,11 @@
 #define FUNCIONES_H_INCLUDED
 #include <stdio.h>
 #include "buffer_circular.h"
+#include <thread>
+#include <chrono>
 
-void productor(Buffer &b, Producto nuevo);
-void consumidor(Buffer &b);
+// Ahora las funciones reciben un delay en milisegundos
+void productor(Buffer &b, Producto nuevo, int delay_ms);
+void consumidor(Buffer &b, int delay_ms);
 
 #endif // FUNCIONES_H_INCLUDED
