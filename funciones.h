@@ -5,7 +5,7 @@
 #include <thread>
 #include <chrono>
 
-// Ahora las funciones reciben un delay en milisegundos
+// funciones productor - consumidor //
 void productor(Buffer &b, Producto nuevo, int delay_ms);
 void consumidor(Buffer &b, int delay_ms);
 
