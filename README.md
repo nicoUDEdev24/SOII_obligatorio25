@@ -1,3 +1,8 @@
+Integrantes del equipo: 
+  * Pablo Saravia 
+  * Nicolás Bauzá 
+  * Rafael Chieza
+
 Problema: Buffer Circular (Productor – Consumidor)
 
 1. Descripción:
