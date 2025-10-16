@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <mutex>              // biblioteca para poder manejar exclusion mutua
 #include <condition_variable> // biblioteca para poder manejar condiciones
+#include <iostream>
 
 const int N = 5;
 

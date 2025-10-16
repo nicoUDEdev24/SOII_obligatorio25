@@ -53,3 +53,42 @@
 1760537643 source:c:\users\nicol\onedrive\documents\obligatorio_soii\funciones.cpp
 	"funciones.h"
 
+1760621572 source:c:\users\nicol\onedrive\documents\soii_obligatorio\soii_obligatorio25\buffer_circular.cpp
+	"buffer_circular.h"
+
+1760620079 c:\users\nicol\onedrive\documents\soii_obligatorio\soii_obligatorio25\buffer_circular.h
+	"producto.h"
+	<stdio.h>
+	<mutex>
+	<condition_variable>
+	<iostream>
+
+1760618762 c:\users\nicol\onedrive\documents\soii_obligatorio\soii_obligatorio25\producto.h
+	<stdio.h>
+	"string.h"
+
+1760621123 c:\users\nicol\onedrive\documents\soii_obligatorio\soii_obligatorio25\string.h
+	<cstring>
+	<cstdio>
+
+1760621274 source:c:\users\nicol\onedrive\documents\soii_obligatorio\soii_obligatorio25\funciones.cpp
+	"funciones.h"
+	<iostream>
+
+1760621123 c:\users\nicol\onedrive\documents\soii_obligatorio\soii_obligatorio25\funciones.h
+	<stdio.h>
+	"buffer_circular.h"
+	<thread>
+	<chrono>
+
+1760621315 source:c:\users\nicol\onedrive\documents\soii_obligatorio\soii_obligatorio25\main.cpp
+	<stdio.h>
+	<thread>
+	"funciones.h"
+
+1760618762 source:c:\users\nicol\onedrive\documents\soii_obligatorio\soii_obligatorio25\producto.cpp
+	"producto.h"
+
+1760619663 source:c:\users\nicol\onedrive\documents\soii_obligatorio\soii_obligatorio25\string.cpp
+	"String.h"
+

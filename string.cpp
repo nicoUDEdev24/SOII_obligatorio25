@@ -41,3 +41,8 @@ String &String::operator=(const String &otro)
     }
     return *this;
 }
+
+// Mostrar String
+void String::mostrar_string(){
+    printf("%s", cadena);
+}

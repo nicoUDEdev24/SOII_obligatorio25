@@ -8,7 +8,6 @@ class String
 {
 private:
     char *cadena;
-
 public:
     // Constructor por defecto
     String();
@@ -20,6 +19,8 @@ public:
     String &operator=(const String &);
     // Constructor desde un C-string
     String(const char *);
+    // Mostrar string
+    void mostrar_string();
 };
 
 #endif // STRING_H_INCLUDED

@@ -4,11 +4,11 @@
 
 int main()
 {
-    printf("***************************************");
+    printf("========================================");
     printf("\n");
     printf("BUFFER CIRCULAR (PRODUCTOR-CONSUMIDOR):");
     printf("\n");
-    printf("***************************************");
+    printf("========================================");
     printf("\n\n");
     String n1("Manzana"), n2("Pera"), n3("Naranja"), n4("Banana"), n5("Kiwi");
     // Creación de productos con código y precio
@@ -37,7 +37,7 @@ int main()
     std::thread t_cons4(consumidor, std::ref(buffer_circular), 50);
     std::thread t_cons5(consumidor, std::ref(buffer_circular), 0);
 
-    // --- Espera a que todos los hilos terminen ---
+    // Espera a que todos los hilos terminen
     // join() bloquea el hilo principal hasta que el hilo correspondiente finalice
     t_prod1.join();
     t_prod2.join();
